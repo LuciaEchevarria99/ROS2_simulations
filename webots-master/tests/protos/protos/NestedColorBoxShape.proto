@@ -1,0 +1,16 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "webots://tests/protos/protos/ColorBoxShape.proto"
+
+PROTO NestedColorBoxShape [
+  field SFColor color 0.2 0.2 0.2
+]
+{
+  Group {
+    children [
+      ColorBoxShape {
+        faceColor IS color
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "webots://tests/parser/protos/ParserTestSupervisor.proto"
+EXTERNPROTO "webots://tests/parser/protos/RobotSlot.proto"
+EXTERNPROTO "webots://tests/manual_tests/protos/SolidSlot.proto"
+
+WorldInfo {
+}
+Viewpoint {
+}
+Background {
+}
+DirectionalLight {
+}
+ParserTestSupervisor {
+}
+RobotSlot {
+  slot [
+    SolidSlot {
+      slot [
+        LightSensor {
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "webots://tests/protos/protos/SlotNode.proto"
+
+PROTO SlotNodeDerived [
+]
+{
+  SlotNode {
+  }
+}
